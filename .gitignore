@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# SvelteKit specific
+.svelte-kit/
+
+# Electron specific
+out/
+*.asar
+
+# IDE specific
+.idea/
+.vscode/
