@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    {
+      "source": "/_app/immutable/assets/(.*)",
+      "destination": "/_app/immutable/assets/$1"
+    },
+    {
+      "source": "/_app/immutable/chunks/(.*)",
+      "destination": "/_app/immutable/chunks/$1"
+    },
+    {
+      "source": "/_app/immutable/entry/(.*)",
+      "destination": "/_app/immutable/entry/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ],
+  "env": {
+    "NODE_VERSION": "18"
+  }
+}

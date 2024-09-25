@@ -1,11 +1,13 @@
 import { app, BrowserWindow } from 'electron';
+import * as path from 'path';
 
 function createWindow() {
 	const win = new BrowserWindow({
 		width: 800,
 		height: 600,
 		show: false,
-		autoHideMenuBar: true
+		autoHideMenuBar: true,
+		icon: path.join(__dirname, '..', 'static', 'favicon.png'), // Ensure the file format is correct
 	});
 
 	win.loadURL('http://localhost:5173');
